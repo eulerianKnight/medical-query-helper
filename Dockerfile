@@ -17,4 +17,4 @@ WORKDIR /app/
 COPY ./medseek_app /app/medseek_app
 COPY ./.streamlit /app/.streamlit
 
-CMD ["streamlit", "run", "demo_app/main.py", "--server.port", "8080"]
+CMD ["streamlit", "run", "medseek_app/main.py", "--server.port", "8080"]
